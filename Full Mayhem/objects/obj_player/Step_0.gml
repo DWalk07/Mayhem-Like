@@ -3,7 +3,7 @@
 x+=dx
 y+=dy
 
-if(keyboard_check_pressed(vk_space)){
+if(keyboard_check_pressed(vk_space) || keyboard_check_pressed(vk_up) ){
 	dy = -12
 }
 if(keyboard_check(vk_left)){
